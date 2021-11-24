@@ -7,7 +7,7 @@ async function bootstrap() {
   app.enableCors();
   const config = new DocumentBuilder()
     .setTitle('API Doação de Alimentos D3')
-    .setDescription('Faz um GET na ')
+    .setDescription('Faz um GET na API de imagens e retorna pro usuario de acordo com a busca')
     .setVersion('1.0')
     .build();
   const document = SwaggerModule.createDocument(app, config);
